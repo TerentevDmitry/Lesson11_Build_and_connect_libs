@@ -2,12 +2,12 @@
 
 
 
-Greeter::Greeter(std::string NameOfPerson)
+Greeter::Greeter(std::string nameOfPerson)
 {
-	greetingAPerson_ = "Здравствуйте, " + NameOfPerson + "!";
+	greetingPerson_ = "Здравствуйте, " + nameOfPerson + "!";
 }
 
-std::string Greeter::getGreetingAPerson()
+std::string Greeter::getGreetingPerson()
 {
-	return greetingAPerson_;
+	return greetingPerson_;
 }

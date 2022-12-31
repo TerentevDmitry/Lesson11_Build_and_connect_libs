@@ -6,11 +6,11 @@
 class Greeter
 {
 private:
-	std::string greetingAPerson_;
+	std::string greetingPerson_;
 
 public:
-	Greeter(std::string NameOfPerson);
+	Greeter(std::string nameOfPerson);
 	
-	std::string getGreetingAPerson();
+	std::string getGreetingPerson();
 };
 

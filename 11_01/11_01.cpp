@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include "Greeter.h"
-#include "11_01.h"
 
 int main()
 {
@@ -10,12 +9,12 @@ int main()
 	system("chcp 1251");
 	std::cout << std::endl;
 
-	std::string NameOfPerson;
+	std::string nameOfPerson;
 
 	std::cout << "Введите имя: ";
-	std::cin >> NameOfPerson;
+	std::cin >> nameOfPerson;
 
-	Greeter oiter(NameOfPerson);
+	Greeter oiter(nameOfPerson);
 		
-	std::cout << oiter.getGreetingAPerson() << std::endl;
+	std::cout << oiter.getGreetingPerson() << std::endl;
 }
