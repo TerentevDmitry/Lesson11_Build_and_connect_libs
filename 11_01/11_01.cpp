@@ -1,7 +1,8 @@
 ﻿// 11_01.cpp : Статическая библиотека.
 
 #include <iostream>
-#include "../11_01_StaticLib/Greeter.h"
+#include "Greeter.h"
+#include "11_01.h"
 
 int main()
 {
@@ -9,12 +10,12 @@ int main()
 	system("chcp 1251");
 	std::cout << std::endl;
 
-	std::string name;
+	std::string NameOfPerson;
 
 	std::cout << "Введите имя: ";
-	std::cin >> name;
+	std::cin >> NameOfPerson;
 
-	std::cout << Greeter(name) << std::endl;
-
-	system("pause");
+	Greeter oiter(NameOfPerson);
+		
+	std::cout << oiter.getGreetingAPerson() << std::endl;
 }
