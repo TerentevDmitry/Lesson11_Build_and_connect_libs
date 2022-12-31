@@ -131,8 +131,10 @@
     <ClCompile Include="Greeter.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="11_01.h" />
     <ClInclude Include="Greeter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

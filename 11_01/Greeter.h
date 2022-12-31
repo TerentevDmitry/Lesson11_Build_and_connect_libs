@@ -11,6 +11,6 @@ private:
 public:
 	Greeter(std::string nameOfPerson);
 	
-	std::string getGreetingPerson();
+	std::string greet();
 };
 

@@ -26,8 +26,10 @@
     <ClInclude Include="Greeter.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="11_01.h">
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt">
       <Filter>Файлы заголовков</Filter>
-    </ClInclude>
+    </Text>
   </ItemGroup>
 </Project>
