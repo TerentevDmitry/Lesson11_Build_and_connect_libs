@@ -18,5 +18,5 @@ int main()
 		
 	std::cout << person1.greet() << std::endl;
 
-	system("pause");
+	//system("pause");
 }
