@@ -1,5 +1,4 @@
 #pragma once
-
 #include <string>
 #include <iostream>
 
@@ -10,7 +9,7 @@ private:
 
 public:
 	Greeter(std::string nameOfPerson);
-	
+
 	std::string greet();
 };
 
