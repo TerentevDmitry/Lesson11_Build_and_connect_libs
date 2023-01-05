@@ -2,13 +2,13 @@
 
 namespace Leaver
 {
-	Leaver::Leaver(std::string nameOfPerson)
-	{
-		leavingPerson_ = "До свидания, " + nameOfPerson + "!";
-	}
+	//Leaver::Leaver(std::string nameOfPerson)
+	//{
+	//	leavingPerson_ = "До свидания, " + nameOfPerson + "!";
+	//}
 
-	std::string Leaver::leave()
+	std::string Leaver::leave(std::string nameOfPerson)
 	{
-		return leavingPerson_;
-	}
+		return "До свидания, " + nameOfPerson + "!";
+	};
 }

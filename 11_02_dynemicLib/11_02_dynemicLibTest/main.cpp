@@ -14,7 +14,7 @@ int main()
 	std::cout << "¬ведите им€: ";
 	std::cin >> nameOfPerson;
 
-	Leaver::Leaver person1(nameOfPerson);
+	Leaver::Leaver person1;
 
-	std::cout << person1.leave() << std::endl;
+	std::cout << person1.leave(nameOfPerson) << std::endl;
 }

@@ -24,6 +24,7 @@
     <ProjectGuid>{a76f65b1-d4d0-462f-a460-3dd327cc94ff}</ProjectGuid>
     <RootNamespace>My1102dynemicLib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>dynemicLib_11_02</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
