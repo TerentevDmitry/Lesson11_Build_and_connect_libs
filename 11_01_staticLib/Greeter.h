@@ -2,14 +2,16 @@
 #include <string>
 #include <iostream>
 
-class Greeter
+namespace Greeter
 {
-private:
-	std::string greetingPerson_;
+	class Greeter
+	{
+	private:
+		std::string greetingPerson_;
 
-public:
-	Greeter(std::string nameOfPerson);
+	public:
+		Greeter(std::string nameOfPerson);
 
-	std::string greet();
-};
-
+		std::string greet();
+	};
+}

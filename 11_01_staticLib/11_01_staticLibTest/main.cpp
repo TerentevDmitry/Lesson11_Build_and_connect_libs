@@ -14,7 +14,7 @@ int main()
 	std::cout << "¬ведите им€: ";
 	std::cin >> nameOfPerson;
 
-	Greeter person1(nameOfPerson);
+	Greeter::Greeter person1(nameOfPerson);
 
 	std::cout << person1.greet() << std::endl;
 }
