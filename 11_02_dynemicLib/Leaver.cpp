@@ -1,11 +1,14 @@
 #include "Leaver.h"
 
-Leaver::Leaver(std::string nameOfPerson)
+namespace Leaver
 {
-	leavingPerson_ = "До свидания, " + nameOfPerson + "!";
-}
+	Leaver::Leaver(std::string nameOfPerson)
+	{
+		leavingPerson_ = "До свидания, " + nameOfPerson + "!";
+	}
 
-std::string Leaver::leave()
-{
-	return leavingPerson_;
+	std::string Leaver::leave()
+	{
+		return leavingPerson_;
+	}
 }
