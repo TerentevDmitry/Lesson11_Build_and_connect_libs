@@ -1,7 +1,7 @@
 // 11_01.cpp : Статическая библиотека.
 
 #include <iostream>
-#include "../Greeter.h"
+#include "Greeter.h"
 
 int main()
 {
