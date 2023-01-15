@@ -12,7 +12,7 @@
 namespace dll_11_04
 {
 
-	FigureLibraryDynamic_API class Figure
+		FigureLibraryDynamic_API class Figure
 	{
 	protected:
 		std::string nameOfFigure_;

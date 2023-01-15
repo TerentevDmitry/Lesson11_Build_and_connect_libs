@@ -1,7 +1,7 @@
-// 11_01.cpp : Статическая библиотека.
+// 11_02.cpp : Динамическая библиотека
 
 #include <iostream>
-#include "..\11_01_staticLib\Greeter.h"
+#include "Leaver.h"
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
 	std::cout << "Введите имя: ";
 	std::cin >> nameOfPerson;
 
-	Greeter::Greeter person1(nameOfPerson);
+	Leaver::Leaver person1;
 
-	std::cout << person1.greet() << std::endl;
+	std::cout << person1.leave(nameOfPerson) << std::endl;
 }
