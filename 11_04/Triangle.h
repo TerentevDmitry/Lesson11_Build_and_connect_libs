@@ -11,28 +11,28 @@ namespace dll_11_04
 {
 
 	dll_11_04_API class Triangle : public Figure
-	{
-	public:
-		Triangle(int sideLengthA, int sideLengthB, int sideLengthC,
-			int angleA, int angleB, int angleC);
-	};
+{
+public:
+	Triangle(int sideLengthA, int sideLengthB, int sideLengthC,
+			 int angleA, int angleB, int angleC);
+};
 
 	dll_11_04_API class RightTriangle : public Triangle
-	{
-	public:
-		RightTriangle(int sideLengthA, int sideLengthB, int sideLengthC, int angleA, int angleB);
-	};
+{
+public:
+	RightTriangle(int sideLengthA, int sideLengthB, int sideLengthC, int angleA, int angleB);
+};
 
 	dll_11_04_API class IsoscelesTriangle : public Triangle
-	{
-	public:
-		IsoscelesTriangle(int sideLengthA, int sideLengthB, int angleA, int angleB);
-	};
+{
+public:
+	IsoscelesTriangle(int sideLengthA, int sideLengthB, int angleA, int angleB);
+};
 
 	dll_11_04_API class EquilateralTriangle :
-		public Triangle
-	{
-	public:
-		EquilateralTriangle(int sideLengthA);
-	};
+	public Triangle
+{
+public:
+	EquilateralTriangle(int sideLengthA);
+};
 };

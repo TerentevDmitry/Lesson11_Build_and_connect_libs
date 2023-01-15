@@ -132,6 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="03.cpp" />
+    <ClCompile Include="Figure.cpp" />
     <ClCompile Include="PrintFigure.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,7 +141,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Figure.h" />
     <ClInclude Include="PrintFigure.h" />
+    <ClInclude Include="Quadrilateral.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
