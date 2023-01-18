@@ -1,7 +1,6 @@
 #pragma once
 #include "Figure.h"
 
-
 #ifdef FigureLibraryDynamic_EXPORTS
 #define FigureLibraryDynamic_API __declspec(dllexport)
 #else
@@ -39,6 +38,6 @@ namespace dll_11_04
 	FigureLibraryDynamic_API class Rhomb : public Quadrilateral
 	{
 	public:
-		homb(int sideLengthA, int angleA, int angleB);
+		Rhomb(int sideLengthA, int angleA, int angleB);
 	};
 };

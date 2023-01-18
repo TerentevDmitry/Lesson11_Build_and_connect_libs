@@ -2,42 +2,41 @@
 
 #include <iostream>
 #include <string>
-#include "Figure.h"
-#include "Triangle.h"
-#include "Quadrilateral.h"
-#include "PrintFigure.h"
+#include "LibFigureDynamic/Figure.h"
+#include "LibFigureDynamic/Triangle.h"
+#include "LibFigureDynamic/Quadrilateral.h"
+#include "PrintFigures.h"
 
-//using namespace dll_11_04;
 
 int main()
 {
 	setlocale(LC_ALL, "Russian"); //Корректное отображение Кириллицы
 	system("chcp 1251");
 	
-	dll_11_04::Triangle Triangle1(10, 20, 30, 40, 50, 60);
-	dll_11_04::printFigure(&Triangle1);
+	FigureLibraryDynamic::Triangle Triangle1(10, 20, 30, 40, 50, 60);
+	FigureLibraryDynamic::printFigures(&Triangle1);
 
-	dll_11_04::RightTriangle rightTriangle1(10, 20, 30, 40, 50);
-	printFigure(&rightTriangle1);
+	FigureLibraryDynamic::RightTriangle rightTriangle1(10, 20, 30, 40, 50);
+	FigureLibraryDynamic::printFigures(&rightTriangle1);
 
-	dll_11_04::IsoscelesTriangle isoscelesTriangle1(11, 220, 330, 440);
-	printFigure(&isoscelesTriangle1);
+	FigureLibraryDynamic::IsoscelesTriangle isoscelesTriangle1(11, 220, 330, 440);
+	FigureLibraryDynamic::printFigures(&isoscelesTriangle1);
 
-	dll_11_04::EquilateralTriangle equilateralTriangle1(111);
-	printFigure(&equilateralTriangle1);
+	FigureLibraryDynamic::EquilateralTriangle equilateralTriangle1(111);
+	FigureLibraryDynamic::printFigures(&equilateralTriangle1);
 
-	dll_11_04::Quadrilateral Quadrilateral1(10, 20, 30, 40, 50, 60, 70, 80);
-	printFigure(&Quadrilateral1);
+	FigureLibraryDynamic::Quadrilateral Quadrilateral1(10, 20, 30, 40, 50, 60, 70, 80);
+	FigureLibraryDynamic::printFigures(&Quadrilateral1);
 
-	dll_11_04::Rectangle Rectangle1(14, 24);
-	printFigure(&Rectangle1);
+	FigureLibraryDynamic::Rectangle Rectangle1(14, 24);
+	FigureLibraryDynamic::printFigures(&Rectangle1);
 
-	dll_11_04::Square Square1(333);
-	printFigure(&Square1);
+	FigureLibraryDynamic::Square Square1(333);
+	FigureLibraryDynamic::printFigures(&Square1);
 
-	dll_11_04::Parallelogram Parallelogram1(555, 666, 777, 888);
-	printFigure(&Parallelogram1);
+	FigureLibraryDynamic::Parallelogram Parallelogram1(555, 666, 777, 888);
+	FigureLibraryDynamic::printFigures(&Parallelogram1);
 
-	dll_11_04::Rhomb Rhomb1(14, 24, 34);
-	printFigure(&Rhomb1);
+	FigureLibraryDynamic::Rhomb Rhomb1(14, 24, 34);
+	FigureLibraryDynamic::printFigures(&Rhomb1);
 }
