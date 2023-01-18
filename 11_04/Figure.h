@@ -26,14 +26,14 @@ namespace dll_11_04
 		int angleC_ = 0;
 		int angleD_ = 0;
 
-	public:
-		std::string getNameOfFigure();
-		int getHaveFourSides();
+public:
+	std::string getNameOfFigure();
+	int getHaveFourSides();
 
-		int getSideLengthA();
-		int getSideLengthB();
-		int getSideLengthC();
-		int getSideLengthD();
+	int getSideLengthA();
+	int getSideLengthB();
+	int getSideLengthC();
+	int getSideLengthD();
 
 		int getAngleA();
 		int getAngleB();

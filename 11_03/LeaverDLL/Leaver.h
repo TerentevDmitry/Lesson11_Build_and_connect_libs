@@ -11,7 +11,7 @@
 
 namespace Leaver
 {
-	class LEAVERDYNAMICLIB_API Leaver
+	class Leaver
 	{
 	//private:
 		//std::string leavingPerson_;
@@ -19,6 +19,6 @@ namespace Leaver
 	public:
 		// Leaver(std::string nameOfPerson);
 
-		std::string leave(std::string nameOfPerson);
+		LEAVERDYNAMICLIB_API std::string leave(std::string nameOfPerson);
 	};
 }
