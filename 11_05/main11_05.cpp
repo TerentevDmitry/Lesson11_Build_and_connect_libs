@@ -1,10 +1,10 @@
-﻿//11_04. Задача 4*. Иерархия классов в DLL, проекты VC++
+﻿//11_05. Задача 5*. Иерархия классов в DLL и CMake
 
 #include <iostream>
 #include <string>
-#include "Figure.h"
-#include "Triangle.h"
-#include "Quadrilateral.h"
+#include "..\11_05\LibFigureDynamic\Figure.h"
+#include "..\11_05\LibFigureDynamic\Triangle.h"
+#include "..\11_05\LibFigureDynamic\Quadrilateral.h"
 #include "PrintFigures.h"
 
 
@@ -39,4 +39,6 @@ int main()
 
 	FigureLibraryDynamic::Rhomb Rhomb1(14, 24, 34);
 	FigureLibraryDynamic::printFigures(&Rhomb1);
+
+	system("pause");
 }
